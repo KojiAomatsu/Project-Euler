@@ -6,4 +6,5 @@ def calc():
         elif i%5 == 0:
             sum += i
     return sum
+
 print(calc())
