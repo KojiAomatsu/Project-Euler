@@ -33,10 +33,9 @@ def factorization(num, primes, perfect_factorization = True):
                 break
         return factors
 
-
 answer1 = factorization(600851475143, prime_maker(10000), False)
 print(answer1) #[71, 8462696833.0]
 answer2 = factorization(answer1[-1], prime_maker(10000), False)
 print(answer2) #[839, 10086647.0]
 answer3 = factorization(answer2[-1], prime_maker(10000))
-print(answer3) #[1471, 6857]
+print(answer3[-1]) #6857
