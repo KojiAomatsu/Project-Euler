@@ -15,7 +15,4 @@ def calc(n):
             result = i
     return result
 
-print(calc(100))
-print(calc(1000))
-print(calc(10000))
 print(calc(1000000))
