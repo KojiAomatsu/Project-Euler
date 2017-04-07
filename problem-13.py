@@ -107,6 +107,3 @@ def find(dic):
     return result[0:10]
 
 print(find(the_list))
-
-
-
